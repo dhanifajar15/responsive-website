@@ -1,0 +1,47 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color:#E43C5C;
+    color: white;
+}
+.sec{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.biru{
+    background-image: linear-gradient(to right,purple,navy);
+}
+.oren{
+    background-image: linear-gradient(to right, orange,crimson);
+}
+.panel{
+    padding:20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.jumbotron{
+    background-image: url(img/banner-bg.jpg);
+    background-size: cover;
+    height: 450px;
+}
+
+.jumbotron .container{
+    margin-top: 50px;
+}
+
+@media (min-width :992px)
+{
+    nav a{
+        color: white;
+        font-size: 23px;
+        margin-left: 15px;
+    }
+    .jumbotron{
+        height: 700px;
+        margin-top: -70px;
+    }
+    .jumbotron .container{
+        margin-top: 220px;
+
+    }
+}
